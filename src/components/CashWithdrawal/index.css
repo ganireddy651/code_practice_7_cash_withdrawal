@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.app-container {
+  min-height: 100vh;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #150b3e;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+.customer-container {
+  display: flex;
+  align-items: center;
+}
+.customer-logo {
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customer-name {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+  margin-left: 15px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.text {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.rupees {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.button {
+  height: 50px;
+  width: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.notes-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
