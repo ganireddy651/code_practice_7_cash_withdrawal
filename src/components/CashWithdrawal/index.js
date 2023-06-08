@@ -50,42 +50,52 @@ class CashWithdrawal extends Component {
           </div>
           <p className="text">Withdraw</p>
           <p className="text">CHOOSE SUM (IN RUPEES)</p>
-          <div className="notes-container">
-            <div>
-              <button
-                onClick={this.onClickDeductFifty}
-                className="button"
-                type="button"
-              >
-                50
-              </button>
-              <br />
-              <button
-                onClick={this.onClickDeductHundred}
-                className="button"
-                type="button"
-              >
-                100
-              </button>
+          <ul>
+            <div className="notes-container">
+              <div>
+                <li>
+                  <button
+                    onClick={this.onClickDeductFifty}
+                    className="button"
+                    type="button"
+                  >
+                    50
+                  </button>
+                </li>
+                <br />
+                <li>
+                  <button
+                    onClick={this.onClickDeductHundred}
+                    className="button"
+                    type="button"
+                  >
+                    100
+                  </button>
+                </li>
+              </div>
+              <div>
+                <li>
+                  <button
+                    onClick={this.onClickDeductTwoHundred}
+                    className="button"
+                    type="button"
+                  >
+                    200
+                  </button>
+                </li>
+                <br />
+                <li>
+                  <button
+                    onClick={this.onClickDeductFiveHundred}
+                    className="button"
+                    type="button"
+                  >
+                    500
+                  </button>
+                </li>
+              </div>
             </div>
-            <div>
-              <button
-                onClick={this.onClickDeductTwoHundred}
-                className="button"
-                type="button"
-              >
-                200
-              </button>
-              <br />
-              <button
-                onClick={this.onClickDeductFiveHundred}
-                className="button"
-                type="button"
-              >
-                500
-              </button>
-            </div>
-          </div>
+          </ul>
         </div>
       </div>
     )
